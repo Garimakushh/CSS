@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#d1{
+    color:aliceblue;
+    height:60px;
+    background-color: #0f1111;
+    width: 1500px;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+button{
+    background-color:#f08804;
+    color:aliceblue;
+}
+a{
+    margin-right:200px;
+}
+#content{
+    height:600px;
+    text-align: center;
+}
+.content{
+    display:inline-block;
+    height:100px;
+    width:100px;
+}
+#footer{
+    color:aliceblue;
+    height:60px;
+    background-color: #0f1111;
+    width: 1500px;
+    text-align: center;
+}
