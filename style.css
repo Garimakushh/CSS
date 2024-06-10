@@ -1,36 +1,35 @@
-h1{
-    color: red;
-    text-align: center;
-    background-color: aqua;
-    height: 100px;
-    width: 500px;
-    /*border-style: dotted;
-    border-color: blue;
-    border-width: 2px;
-    border-radius: 100px;*/
-    border: 2px dotted blue;
-    border-radius: 100px;
-
-}
-
-*{
-    padding: 0;
-    margin: 0;
-}
-#d1{
-    color:aliceblue;
-    height:60px;
-    background-color: #0f1111;
-    width: 2000px;
-}
-#logo{
-    color:#f08804;
-    font-size: 25px;
+p{
+    color: blueviolet;
 }
 button{
-    background-color:#f08804;
-    color:aliceblue;
+    color:brown;
+    background-color:green;
 }
-a{
-    margin-right:200px;
+h1{
+    text-align: center;
+    color: red;
+}
+#box{
+    color:yellow;
+    background-color:blue;
+}
+.heading{
+    text-align: center;
+    color:green;
+}
+#lorem{
+    color:maroon; 
+    font-family: 'Times New Roman'; 
+}
+#Level1{
+    color : green;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
 }
