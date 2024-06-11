@@ -1,0 +1,17 @@
+body{
+    background-image: url("03.jpg");
+    background-size: cover;
+}
+#d1{
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    top:10px;
+    right:10px;
+    background-image: url("05.jpg");
+    background-size: cover;
+}
+#d2{
+    height: 300px;
+    width: 100px;   
+}
