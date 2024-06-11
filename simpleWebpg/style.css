@@ -1,0 +1,35 @@
+p{
+    color: blueviolet;
+}
+button{
+    color:brown;
+    background-color:green;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+#box{
+    color:yellow;
+    background-color:blue;
+}
+.heading{
+    text-align: center;
+    color:green;
+}
+#lorem{
+    color:maroon; 
+    font-family: 'Times New Roman'; 
+}
+#Level1{
+    color : green;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
