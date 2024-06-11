@@ -1,0 +1,36 @@
+h2{
+    color:brown;
+    text-align: center;
+}
+#container{
+    height:400px;
+    width:900px;
+    position:relative;
+    top:20px;
+    left:200px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+div{
+    height:80px;
+    width:80px;
+    display: inline-block;
+    border:2px black dotted;
+}
+#box1{
+    background-color: rgba(0,0,255,0.5); 
+}
+#box2{    
+    background-color: rgba(0,255,0,0.5);   
+}
+#box3{ 
+    background-color: rgba(255,0,0,0.5); 
+}
+#box4{
+    background-color: pink;
+}
+#box5{
+    background-color:orange;
+}
