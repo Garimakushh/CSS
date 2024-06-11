@@ -1,0 +1,30 @@
+div{
+    color:black;
+    background-color: blueviolet;
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:200px;
+    left:100px;
+    /*animation properties*/
+    /* animation-name: animColor;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    animation: animColor 2s ease-in 1ms infinite alternate;
+}
+@keyframes animColor{
+    /*use of animation % */
+    0%{background-color: blue;}
+    50%{background-color: blueviolet}
+    100%{background-color: aqua;}
+
+    from{left:0px;
+        color:black}
+
+    to{left:200px;
+        color:red}
+}
