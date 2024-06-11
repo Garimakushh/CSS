@@ -1,0 +1,68 @@
+div{
+    display:inline-block;
+    height:100px;
+    width:100px;
+}
+#box1{
+    
+    background-color: aquamarine;
+    position:static;
+}
+#box2{
+    
+    background-color:pink;
+    position:relative;
+    top:10px;
+    left:10px
+    
+}
+#box3{
+    background-color:chartreuse;
+    position:absolute;
+    top:60px;
+    left:450px;
+    z-index: 1;
+}
+#box4{
+    background-color:crimson;
+    position:fixed;
+    top:60px;
+    left:400px;
+    z-index: 0;
+}
+#box5{
+    background-color:skyblue;
+    position:sticky;
+    top:0;
+    left:600px;
+}
+#box6{
+    background-image: url("03.jpg");
+    background-size: cover;
+}
+body{
+    background-image: url("04.jpg");
+    background-size: cover;
+}
+p{
+    color: antiquewhite;
+}
+#d1{
+    position: fixed;
+    color:aliceblue;
+    height:60px;
+    background-color: #0f1111;
+    width: 1500px;
+    top:0;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+button{
+    background-color:#f08804;
+    color:aliceblue;
+}
+a{
+    margin-right:200px;
+}
