@@ -1,0 +1,31 @@
+div{
+    height:200px;
+    width:200px;
+    position: absolute;
+    top:200px;
+    left:200px;
+    background-color: crimson;
+    border:2px solid black;
+    color:aliceblue
+    
+}
+div:hover{
+    color:burlywood;
+    background-color: green;
+    font-size: 20px;
+    /*transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0ms;*/
+    transition: all 1s linear 0s;  
+    transform: scale(1.5); /* this will enlarge while hover*/
+    transform: rotate(135deg);/* this will rotate on hover*/
+   
+    transform: translate(200px,100px);/*this will move div on screen on hover*/
+    transform: skew(90deg);
+}
+div:active{
+    
+    background-color: blue;
+    
+}
